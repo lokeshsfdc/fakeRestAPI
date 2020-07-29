@@ -1,0 +1,141 @@
+{
+  "responseId": "0b0e2ab4-99a4-4e16-a87f-00ee74996355",
+  "caseTags": [
+    {
+      "name": "tags/PFI-I-001605",
+      "score": 0.8412192,
+      "title": "Admin console \u003e G Suite Setup \u003e Doesn't know [How to] setup MX Records (needs help with configuration, incorrectly sets up MX, unaware of 24hr propagation, MX reset after domain host change, etc.)",
+      "description": "Unaware of how to setup and validate MX records or sets up MX incorrectly, unaware of the 24 hr propagation, MX records may be reset of flushed or need to be set up again, name server issues, how to minimize mail flow disruption, invalid MX , etc"
+    },
+    {
+      "name": "tags/PFI-I-001599",
+      "score": 0.018121792,
+      "title": "Admin console \u003e G Suite Setup \u003e Doesn't know [How to] Verify Domain (doesn't understand DNS, propagation delays, doesn't know how to access domain host or does not own domain, etc)",
+      "description": "Should be used irrespective of primary or secondary domain verification when the customer specifically needs support in the verification process."
+    },
+    {
+      "name": "tags/PFI-I-003061",
+      "score": 0.016840523,
+      "title": "Unsupported Products \u003e Non-Google Products \u003e [Unsupported Products] Non-Google Products",
+      "description": "This tag should be used for issues related to any Non-Google product as Outlook (when migrating away from GSuite), Skype, Facebook, etc. Use [Product] Unsupported instead if issue is about a non-Google product but impacts functioning of G Suite product."
+    }
+  ],
+  "solutions": [
+    {
+      "type": "Help Center Article",
+      "solutions": [
+        {
+          "url": "https://support.google.com/a/answer/140034",
+          "title": "Set up MX records for G Suite Gmail - G Suite Admin Help",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/a/answer/60216?hl=en",
+          "title": "Verify your domain for G Suite - G Suite Admin Help",
+          "caseTags": [
+            "tags/PFI-I-001599"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/a/answer/6336670",
+          "title": "Scope of support - G Suite Admin Help",
+          "caseTags": [
+            "tags/PFI-I-003061"
+          ],
+          "description": ""
+        }
+      ]
+    },
+    {
+      "type": "SupportU Article",
+      "solutions": [
+        {
+          "url": "https://support.google.com/supportu/answer/6005198",
+          "title": "Overview of MX record setup flow",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/supportu/answer/6005198",
+          "title": "Overview of MX record setup flow - SupportU Help",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/supportu/answer/3423045?hl=en",
+          "title": "Troubleshoot Domain Verification issues - SupportU Help",
+          "caseTags": [
+            "tags/PFI-I-001599"
+          ],
+          "description": ""
+        }
+      ]
+    },
+    {
+      "type": "Similar Cases",
+      "solutions": [
+        {
+          "url": "https://unify--London.my.salesforce.com/500f200001UfvPEAAZ",
+          "title": "21266218: is my email working properly. the mx activation was a little weird saying it didn't find all the servers but I added them on the domain host side. then google just skipped everything and said it was activated and everything was working. can you make sure",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://unify--London.my.salesforce.com/500f200001UfyeHAAR",
+          "title": "21270060: Hello,",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://unify--London.my.salesforce.com/500f200001UfzYjAAJ",
+          "title": "21271180: transferred domain from godaddy to bluehost. Already had existing G-Suite account and trying to set it up again for new host.",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        }
+      ]
+    },
+    {
+      "type": "Canned Response",
+      "solutions": [
+        {
+          "url": "https://support.google.com/supportu/answer/7295813",
+          "title": "CR INITIALMXSETUP - SupportU Help",
+          "caseTags": [
+            "tags/PFI-I-001605"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/supportu/answer/7374306?hl=en&ref_topic=6193444",
+          "title": "CR VERIFYDOM - SupportU Help",
+          "caseTags": [
+            "tags/PFI-I-001599"
+          ],
+          "description": ""
+        },
+        {
+          "url": "https://support.google.com/supportu/answer/7455773?hl=en",
+          "title": "CR UNSUPPORTED - SupportU Help",
+          "caseTags": [
+            "tags/PFI-I-003061"
+          ],
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
